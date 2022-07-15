@@ -1,0 +1,68 @@
+
+body {
+    color: white;
+    margin: 20px;
+}
+
+header h1 {
+    background-color: rgb(156, 84, 224);
+    font-size: 50px;
+    padding: 30px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-city{
+    color: black;
+    max-width: 700px;
+    margin: 30px;
+}
+
+.what-where-how {
+    background-color: rgb(77, 174, 235);
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: rgb(77, 174, 235);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+footer p {
+    background-color: rgb(77, 174, 235);
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+/* using @media */
+
+@media screen and (max-width: 600px) {
+    /* for tablet */
+    .container {
+        display: block;
+    } 
+    
+    .buttons button,.what-where-how {
+        width: 100%;
+    }
+
+}
